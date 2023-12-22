@@ -17,5 +17,5 @@
 
   <div class="project-status status">
     <h2>Project Status</h2>
-    <p>This project is currently ongoing, and certain details or secrets are not shared at this stage.</p>
+    <p style='color:red'>This project is currently ongoing, and certain details or secrets are not shared at this stage.</p>
   </div>
