@@ -3,3 +3,5 @@ Creating a secure social media verification system incorporating hash keys, Tens
 
 
 ![Hash Key to the email](https://media.licdn.com/dms/image/D5622AQFQhoCP5_Z53Q/feedshare-shrink_800/0/1703179851050?e=1706140800&v=beta&t=L81uqpLNSClMY_lXXxI4qvkxP2VxnPDuv31iW8VXPuA)
+
+![Hash Key to the email](https://media.licdn.com/dms/image/D5622AQGJWTKCQEZb4w/feedshare-shrink_2048_1536/0/1703179851890?e=1706140800&v=beta&t=zRBVrltv9CqkcbbDYtStT6bfqwxvY3tlcjIwyvIISQ8)
