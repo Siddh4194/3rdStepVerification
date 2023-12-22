@@ -1,0 +1,144 @@
+/* log in page */
+
+.logIN{
+    height: 100vh;
+    width: 100vw;background: rgb(43,19,220);
+    background: -moz-linear-gradient(3deg, rgba(43,19,220,0.5272233893557423) 0%, rgba(60,146,180,0.6700805322128851) 44%);
+    background: -webkit-linear-gradient(3deg, rgba(43,19,220,0.5272233893557423) 0%, rgba(60,146,180,0.6700805322128851) 44%);
+    background: linear-gradient(3deg, rgba(43,19,220,0.5272233893557423) 0%, rgba(60,146,180,0.6700805322128851) 44%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b13dc",endColorstr="#3c92b4",GradientType=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginDiv{
+    height: 65%;
+    width: 30%;
+    border-radius: 1em;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.263);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginDiv h3{
+    margin-top: 2em;
+}
+
+.loginDiv a{
+    font-size: clamp(.7em, 1vh,1em);
+}
+
+.inputs{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.inputs input,select{  
+    width: 60%;
+    margin-top: 1em;
+    border: none;
+    height: 1.5em;
+    padding: .6em;
+}
+
+.inputs select{  
+    width: 64%;
+    margin-top: 1em;
+    border: none;
+    height: 2.5em;
+    padding: .6em;
+}
+
+.inputs input:focus{
+    outline: none;
+}  
+
+
+.clear-back-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.colorButton{
+    background-color: #cfa2f78e;
+    height: 3em;
+    width: 6em;
+    transition:.3s ease-in;
+    border-radius: .2em;
+    margin-top: 1em;
+    transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.colorButton:hover{
+    background-color: #a059debe;
+
+}
+
+
+.rowInput{
+    display: flex;
+}
+
+
+/* Home Page */
+.home{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(221, 235, 234);
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_feed{
+height: 100%;
+width: 15%;
+}
+
+.post_feed{
+width: 85%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.post{
+    background-color: black;
+    color: antiquewhite;
+    height: 65%;
+    width: 35%;
+    border-radius: .6em;
+}
+
+.post_header{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.post_content{
+    height: 80%;
+}
+.post_footer{
+    height: 10%;
+}
+
+/* scroll for post */
+/* #your-scroll-container{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
+} */
